@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -104,9 +105,12 @@
                                                     <constraint firstAttribute="height" constant="115" id="7Jx-3u-xjb"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="gray">
+                                                <buttonConfiguration key="configuration" style="gray" image="arrowtriangle.up.fill" catalog="system">
                                                     <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onBtnUpClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qif-PG-rfQ"/>
+                                                </connections>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SBb-x9-4f4">
                                                 <rect key="frame" x="16" y="131" width="183" height="70"/>
@@ -114,7 +118,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="3h7-1i-xGi"/>
                                                 </constraints>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" systemColor="systemGreenColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -124,9 +128,12 @@
                                                     <constraint firstAttribute="height" constant="115" id="gao-OB-e5U"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="gray">
+                                                <buttonConfiguration key="configuration" style="gray" image="arrowtriangle.down.fill" catalog="system">
                                                     <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="OnBtnDownClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rhO-7w-H1E"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -193,6 +200,11 @@
                             <constraint firstItem="xR7-Ul-Hhg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yC3-ko-Vso"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnDown" destination="uaA-Ho-afY" id="L4q-sL-QBS"/>
+                        <outlet property="btnUp" destination="aLZ-yZ-95Q" id="tN4-6u-0rd"/>
+                        <outlet property="lblScale" destination="SBb-x9-4f4" id="csX-Bb-6VS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -202,5 +214,10 @@
     <resources>
         <image name="BlackPianoBtn" width="1200" height="675"/>
         <image name="WhitePianoBtn" width="1800" height="1200"/>
+        <image name="arrowtriangle.down.fill" catalog="system" width="128" height="120"/>
+        <image name="arrowtriangle.up.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
