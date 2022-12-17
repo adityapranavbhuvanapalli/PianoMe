@@ -19,83 +19,120 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xR7-Ul-Hhg" userLabel="Piano">
                                 <rect key="frame" x="0.0" y="48" width="896" height="332"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhitePianoBtn" translatesAutoresizingMaskIntoConstraints="NO" id="mrc-3N-Uqj" userLabel="C">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zg-K2-aCx" userLabel="C">
                                         <rect key="frame" x="8" y="0.0" width="87" height="332"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="87" id="gVb-d0-1SK"/>
+                                            <constraint firstAttribute="width" constant="87" id="vP1-Vv-RcT"/>
                                         </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhitePianoBtn" translatesAutoresizingMaskIntoConstraints="NO" id="fVt-3l-MhO" userLabel="D">
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zmh-dY-Ekw" userLabel="D">
                                         <rect key="frame" x="103" y="0.0" width="87" height="332"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="87" id="M8I-iT-XWe"/>
+                                            <constraint firstAttribute="width" constant="87" id="OKG-vB-eOj"/>
                                         </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhitePianoBtn" translatesAutoresizingMaskIntoConstraints="NO" id="VB4-16-wTD" userLabel="E">
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAX-bc-juu" userLabel="E">
                                         <rect key="frame" x="198" y="0.0" width="87" height="332"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="87" id="PYz-OJ-5zF"/>
+                                            <constraint firstAttribute="width" constant="87" id="xf1-KI-rkm"/>
                                         </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhitePianoBtn" translatesAutoresizingMaskIntoConstraints="NO" id="vZ3-5c-4zP" userLabel="F">
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QgZ-Zc-rIw" userLabel="F">
                                         <rect key="frame" x="293" y="0.0" width="87" height="332"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="87" id="1HJ-SU-ged"/>
+                                            <constraint firstAttribute="width" constant="87" id="F5d-Hf-h4w"/>
                                         </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhitePianoBtn" translatesAutoresizingMaskIntoConstraints="NO" id="Uvh-SS-ClE" userLabel="G">
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6c-SR-FCr" userLabel="G">
                                         <rect key="frame" x="388" y="0.0" width="87" height="332"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="87" id="GK3-z8-9LH"/>
+                                            <constraint firstAttribute="width" constant="87" id="CzB-8X-nj9"/>
                                         </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhitePianoBtn" translatesAutoresizingMaskIntoConstraints="NO" id="MOk-nl-euD" userLabel="A">
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4M2-zQ-gbA" userLabel="A">
                                         <rect key="frame" x="483" y="0.0" width="87" height="332"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="87" id="RxR-hu-XUg"/>
+                                            <constraint firstAttribute="width" constant="87" id="tCA-CS-OPI"/>
                                         </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhitePianoBtn" translatesAutoresizingMaskIntoConstraints="NO" id="MSZ-aV-GSg" userLabel="B">
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqs-S0-4OK" userLabel="B">
                                         <rect key="frame" x="578" y="0.0" width="87" height="332"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="87" id="P4M-N6-5DG"/>
+                                            <constraint firstAttribute="width" constant="87" id="HlS-we-pOa"/>
                                         </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackPianoBtn" translatesAutoresizingMaskIntoConstraints="NO" id="wcd-aN-1Cl" userLabel="Db">
-                                        <rect key="frame" x="74" y="0.0" width="50" height="200"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aub-OT-HVj" userLabel="Db">
+                                        <rect key="frame" x="69" y="0.0" width="60" height="200"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="PKB-PE-KAL"/>
-                                            <constraint firstAttribute="height" constant="200" id="v3k-ry-c5n"/>
+                                            <constraint firstAttribute="height" constant="200" id="faJ-rp-bdb"/>
+                                            <constraint firstAttribute="width" constant="60" id="qmV-cH-LiP"/>
                                         </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackPianoBtn" translatesAutoresizingMaskIntoConstraints="NO" id="NsC-Lj-bQU" userLabel="Eb">
-                                        <rect key="frame" x="169" y="0.0" width="50" height="200"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcP-YS-yRq" userLabel="Eb">
+                                        <rect key="frame" x="164" y="0.0" width="60" height="200"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="200" id="Fx0-Vz-l6M"/>
-                                            <constraint firstAttribute="width" constant="50" id="QS6-37-URa"/>
+                                            <constraint firstAttribute="height" constant="200" id="0hE-2Q-jam"/>
+                                            <constraint firstAttribute="width" constant="60" id="qn9-0o-WHs"/>
                                         </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackPianoBtn" translatesAutoresizingMaskIntoConstraints="NO" id="a6L-8q-QCw" userLabel="Gb">
-                                        <rect key="frame" x="359" y="0.0" width="50" height="200"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbP-3q-AhJ" userLabel="Gb">
+                                        <rect key="frame" x="354" y="0.0" width="60" height="200"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="eqb-m5-Mpd"/>
-                                            <constraint firstAttribute="height" constant="200" id="mq7-e2-YFG"/>
+                                            <constraint firstAttribute="width" constant="60" id="DOE-W0-gf0"/>
+                                            <constraint firstAttribute="height" constant="200" id="i53-jr-MVc"/>
                                         </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackPianoBtn" translatesAutoresizingMaskIntoConstraints="NO" id="N6z-TY-kT0" userLabel="Ab">
-                                        <rect key="frame" x="454" y="0.0" width="50" height="200"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tvw-7t-E0v" userLabel="Ab">
+                                        <rect key="frame" x="449" y="0.0" width="60" height="200"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="200" id="Zef-6i-UIp"/>
-                                            <constraint firstAttribute="width" constant="50" id="i7W-Bs-o6S"/>
+                                            <constraint firstAttribute="height" constant="200" id="WWR-Kl-rOb"/>
+                                            <constraint firstAttribute="width" constant="60" id="j14-0M-qHZ"/>
                                         </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackPianoBtn" translatesAutoresizingMaskIntoConstraints="NO" id="kZk-qZ-mau" userLabel="Bb">
-                                        <rect key="frame" x="549" y="0.0" width="50" height="200"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="200" id="B92-A3-mtO"/>
-                                            <constraint firstAttribute="width" constant="50" id="WbZ-39-z5L"/>
-                                        </constraints>
-                                    </imageView>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t8M-gs-EK9" userLabel="ControlsView">
                                         <rect key="frame" x="673" y="0.0" width="215" height="332"/>
                                         <subviews>
@@ -150,44 +187,55 @@
                                             <constraint firstAttribute="trailing" secondItem="SBb-x9-4f4" secondAttribute="trailing" constant="16" id="vEt-7I-fmV"/>
                                         </constraints>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bY-iz-Bhv" userLabel="Bb">
+                                        <rect key="frame" x="544" y="0.0" width="60" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="FYd-mp-8Mf"/>
+                                            <constraint firstAttribute="width" constant="60" id="KuT-k5-W4Z"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="VB4-16-wTD" firstAttribute="leading" secondItem="fVt-3l-MhO" secondAttribute="trailing" constant="8" id="2E8-bk-w4X"/>
-                                    <constraint firstItem="wcd-aN-1Cl" firstAttribute="leading" secondItem="mrc-3N-Uqj" secondAttribute="trailing" constant="-21" id="5ql-nM-FTq"/>
-                                    <constraint firstItem="N6z-TY-kT0" firstAttribute="leading" secondItem="Uvh-SS-ClE" secondAttribute="trailing" constant="-21" id="6Za-0N-NGm"/>
-                                    <constraint firstItem="MOk-nl-euD" firstAttribute="leading" secondItem="Uvh-SS-ClE" secondAttribute="trailing" constant="8" symbolic="YES" id="7EX-lZ-Mzr"/>
-                                    <constraint firstItem="wcd-aN-1Cl" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="B0u-FK-gvj"/>
+                                    <constraint firstItem="QgZ-Zc-rIw" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="29G-C9-z88"/>
+                                    <constraint firstItem="1bY-iz-Bhv" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="2kN-Gy-xZh"/>
+                                    <constraint firstItem="Aub-OT-HVj" firstAttribute="leading" secondItem="1zg-K2-aCx" secondAttribute="trailing" constant="-26" id="2n2-rO-H47"/>
+                                    <constraint firstItem="Zmh-dY-Ekw" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="4al-VF-sES"/>
+                                    <constraint firstAttribute="bottom" secondItem="QgZ-Zc-rIw" secondAttribute="bottom" id="6J1-bR-naQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Zmh-dY-Ekw" secondAttribute="bottom" id="7kW-I4-5KF"/>
+                                    <constraint firstItem="1zg-K2-aCx" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="8hF-7f-bpm"/>
+                                    <constraint firstItem="RAX-bc-juu" firstAttribute="leading" secondItem="Zmh-dY-Ekw" secondAttribute="trailing" constant="8" symbolic="YES" id="9I2-UC-zjv"/>
+                                    <constraint firstItem="uqs-S0-4OK" firstAttribute="leading" secondItem="4M2-zQ-gbA" secondAttribute="trailing" constant="8" symbolic="YES" id="AhS-Wd-Flu"/>
                                     <constraint firstAttribute="bottom" secondItem="t8M-gs-EK9" secondAttribute="bottom" id="B1w-r6-4s3"/>
-                                    <constraint firstItem="NsC-Lj-bQU" firstAttribute="leading" secondItem="fVt-3l-MhO" secondAttribute="trailing" constant="-21" id="Bvv-bI-rOV"/>
-                                    <constraint firstItem="MSZ-aV-GSg" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="D04-MU-V2x"/>
+                                    <constraint firstItem="1bY-iz-Bhv" firstAttribute="leading" secondItem="4M2-zQ-gbA" secondAttribute="trailing" constant="-26" id="Dlo-LP-l2C"/>
                                     <constraint firstItem="t8M-gs-EK9" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="FEh-Gi-ea0"/>
-                                    <constraint firstItem="VB4-16-wTD" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="G9e-PR-hvL"/>
-                                    <constraint firstItem="fVt-3l-MhO" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="GP6-mC-FmN"/>
-                                    <constraint firstAttribute="bottom" secondItem="MSZ-aV-GSg" secondAttribute="bottom" id="Iwg-3P-sFq"/>
-                                    <constraint firstAttribute="bottom" secondItem="fVt-3l-MhO" secondAttribute="bottom" id="LL6-3J-i1Y"/>
-                                    <constraint firstAttribute="bottom" secondItem="MOk-nl-euD" secondAttribute="bottom" id="MG5-hB-mRh"/>
-                                    <constraint firstAttribute="bottom" secondItem="Uvh-SS-ClE" secondAttribute="bottom" id="MOC-Wn-JIG"/>
-                                    <constraint firstAttribute="bottom" secondItem="VB4-16-wTD" secondAttribute="bottom" id="Nat-zz-4fC"/>
-                                    <constraint firstItem="a6L-8q-QCw" firstAttribute="leading" secondItem="vZ3-5c-4zP" secondAttribute="trailing" constant="-21" id="O5v-7d-4i7"/>
-                                    <constraint firstItem="NsC-Lj-bQU" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="OMu-Pe-NfA"/>
-                                    <constraint firstItem="mrc-3N-Uqj" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="QTO-Me-leX"/>
-                                    <constraint firstItem="N6z-TY-kT0" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="U0T-uC-ElU"/>
-                                    <constraint firstItem="kZk-qZ-mau" firstAttribute="leading" secondItem="MOk-nl-euD" secondAttribute="trailing" constant="-21" id="UkN-Yb-vv2"/>
-                                    <constraint firstItem="fVt-3l-MhO" firstAttribute="leading" secondItem="mrc-3N-Uqj" secondAttribute="trailing" constant="8" id="VGf-x5-J84"/>
-                                    <constraint firstItem="Uvh-SS-ClE" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="YND-E9-xyd"/>
-                                    <constraint firstItem="MSZ-aV-GSg" firstAttribute="leading" secondItem="MOk-nl-euD" secondAttribute="trailing" constant="8" symbolic="YES" id="Zf8-D9-X7I"/>
-                                    <constraint firstAttribute="bottom" secondItem="vZ3-5c-4zP" secondAttribute="bottom" id="ad4-Y8-Qod"/>
-                                    <constraint firstAttribute="bottom" secondItem="mrc-3N-Uqj" secondAttribute="bottom" id="afc-Tw-kJM"/>
-                                    <constraint firstItem="vZ3-5c-4zP" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="bYj-4p-X1M"/>
-                                    <constraint firstItem="MOk-nl-euD" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="cJZ-HZ-Lku"/>
-                                    <constraint firstItem="t8M-gs-EK9" firstAttribute="leading" secondItem="MSZ-aV-GSg" secondAttribute="trailing" constant="8" id="dpl-29-npt"/>
-                                    <constraint firstItem="kZk-qZ-mau" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="eap-rm-hvK"/>
-                                    <constraint firstItem="mrc-3N-Uqj" firstAttribute="leading" secondItem="xR7-Ul-Hhg" secondAttribute="leadingMargin" id="jAf-mZ-cpz"/>
-                                    <constraint firstItem="vZ3-5c-4zP" firstAttribute="leading" secondItem="VB4-16-wTD" secondAttribute="trailing" constant="8" symbolic="YES" id="jTk-oC-ur7"/>
+                                    <constraint firstAttribute="bottom" secondItem="uqs-S0-4OK" secondAttribute="bottom" id="I7c-Ic-6rJ"/>
+                                    <constraint firstItem="hcP-YS-yRq" firstAttribute="leading" secondItem="Zmh-dY-Ekw" secondAttribute="trailing" constant="-26" id="IO0-PX-Leh"/>
+                                    <constraint firstItem="hcP-YS-yRq" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="LM4-g1-h0e"/>
+                                    <constraint firstItem="QbP-3q-AhJ" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="Myo-ab-7GD"/>
+                                    <constraint firstItem="Z6c-SR-FCr" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="Neg-4s-RdY"/>
+                                    <constraint firstItem="4M2-zQ-gbA" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="OFd-gE-Z0I"/>
+                                    <constraint firstItem="uqs-S0-4OK" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="Swm-8x-MQY"/>
+                                    <constraint firstItem="Tvw-7t-E0v" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="TF6-JH-4RQ"/>
+                                    <constraint firstItem="RAX-bc-juu" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="UlW-Wy-oey"/>
+                                    <constraint firstItem="Aub-OT-HVj" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="ZJE-Xl-Myn"/>
+                                    <constraint firstItem="Z6c-SR-FCr" firstAttribute="leading" secondItem="QgZ-Zc-rIw" secondAttribute="trailing" constant="8" symbolic="YES" id="ZNk-Hj-WhL"/>
+                                    <constraint firstItem="t8M-gs-EK9" firstAttribute="leading" secondItem="uqs-S0-4OK" secondAttribute="trailing" constant="8" id="a4B-Wb-qa5"/>
+                                    <constraint firstItem="QbP-3q-AhJ" firstAttribute="leading" secondItem="QgZ-Zc-rIw" secondAttribute="trailing" constant="-26" id="dMq-ao-XP9"/>
+                                    <constraint firstAttribute="bottom" secondItem="Z6c-SR-FCr" secondAttribute="bottom" id="dbV-m3-S23"/>
+                                    <constraint firstAttribute="bottom" secondItem="RAX-bc-juu" secondAttribute="bottom" id="di7-7z-9r8"/>
+                                    <constraint firstItem="4M2-zQ-gbA" firstAttribute="leading" secondItem="Z6c-SR-FCr" secondAttribute="trailing" constant="8" symbolic="YES" id="dq8-Wy-uzZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="1zg-K2-aCx" secondAttribute="bottom" id="eSZ-sg-Lna"/>
+                                    <constraint firstItem="QgZ-Zc-rIw" firstAttribute="leading" secondItem="RAX-bc-juu" secondAttribute="trailing" constant="8" symbolic="YES" id="ghk-yf-fsN"/>
+                                    <constraint firstItem="Tvw-7t-E0v" firstAttribute="leading" secondItem="Z6c-SR-FCr" secondAttribute="trailing" constant="-26" id="i0g-yp-s16"/>
+                                    <constraint firstAttribute="bottom" secondItem="4M2-zQ-gbA" secondAttribute="bottom" id="lJ0-A9-sdr"/>
                                     <constraint firstAttribute="trailing" secondItem="t8M-gs-EK9" secondAttribute="trailing" constant="8" id="nr4-Ri-yLW"/>
-                                    <constraint firstItem="a6L-8q-QCw" firstAttribute="top" secondItem="xR7-Ul-Hhg" secondAttribute="top" id="oa4-Ni-xh8"/>
-                                    <constraint firstItem="Uvh-SS-ClE" firstAttribute="leading" secondItem="vZ3-5c-4zP" secondAttribute="trailing" constant="8" symbolic="YES" id="u3k-3F-qqv"/>
+                                    <constraint firstItem="1zg-K2-aCx" firstAttribute="leading" secondItem="xR7-Ul-Hhg" secondAttribute="leading" constant="8" id="wTl-xp-eLP"/>
+                                    <constraint firstItem="Zmh-dY-Ekw" firstAttribute="leading" secondItem="1zg-K2-aCx" secondAttribute="trailing" constant="8" symbolic="YES" id="yRN-mZ-RGV"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -212,8 +260,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BlackPianoBtn" width="1200" height="675"/>
-        <image name="WhitePianoBtn" width="1800" height="1200"/>
         <image name="arrowtriangle.down.fill" catalog="system" width="128" height="120"/>
         <image name="arrowtriangle.up.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemGreenColor">
